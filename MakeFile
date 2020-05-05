@@ -1,0 +1,8 @@
+run:
+	python manage.py runserver 8080
+
+makemigrations:
+	./manage.py makemigrations bedu_travels
+
+migrate:
+	./manage.py migrate	
